@@ -1,0 +1,15 @@
+This program implements inheritance and polymorpism. Monster is the base class while Goblin, Troll, and Dragon are its children. Dragon has two children: Ice Dragon and Fire Dragon. Each monster has an attack the strength of which is determined at random.
+
+To make this program, I have included a makefile. Simply type "make" to produce an executable and type "make clean" to remove all executables and completely recompile the program. Otherwise, "make" will only recompile the files that were changed 
+
+The three most difficult things about this assignment:
+
+(1) What to do with implementing virtual functions?
+(2) Do pure abstract classes require any implementation, even of functions that are not virtual?
+(3) How does object destruction work with polymorphism?
+
+The three things I learned in this lab:
+
+(1) The difference between overriding and virtual function.
+(2) How to create an abstract class
+(3) The usefulness of polymorphism
